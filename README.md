@@ -39,9 +39,9 @@ module InterestProtocol::Resources {
     }
 }
 
-**b. Implementing a Smart Contract
 
-```move
+
+**b. Implementing a Smart Contract
 
 module InterestProtocol::Contract {
     import 0x1::Signer;
@@ -60,8 +60,6 @@ module InterestProtocol::Contract {
 }
 
 **c. Testing the Smart Contract
-
-```move
 
 module InterestProtocol::Tests {
     import 0x1::Signer;
